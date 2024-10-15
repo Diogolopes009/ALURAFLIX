@@ -21,7 +21,7 @@ body {
    }
    
    .chamada-texto {
-     margin-right: 5%;
+     margin-right: 20px 5%;
    }
    
    h1 {
@@ -31,3 +31,26 @@ body {
    p {
      font-size: 20px;
    }
+   img {
+    height: 200px;
+  }
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  
+  .chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
